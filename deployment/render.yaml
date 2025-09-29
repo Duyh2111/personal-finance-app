@@ -2,7 +2,7 @@ services:
   - type: web
     name: personal-finance-backend
     env: docker
-    dockerfilePath: ./backend/Dockerfile.prod
+    dockerfilePath: ./Dockerfile
     healthCheckPath: /health
     envVars:
       - key: DATABASE_URL
