@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: personal-finance-backend
+    env: docker
+    dockerfilePath: ./backend/Dockerfile.prod
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: personal-finance-db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: JWT_SECRET_KEY
+        generateValue: true
+      - key: ENVIRONMENT
+        value: production
+      - key: DEBUG
+        value: false
+
+databases:
+  - name: personal-finance-db
+    databaseName: finance_production
+    user: finance_user
