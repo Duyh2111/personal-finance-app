@@ -1,0 +1,480 @@
+{
+  "@@locale": "en",
+  "appTitle": "Personal Finance",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+
+  "loginTitle": "Welcome Back",
+  "@loginTitle": {
+    "description": "Login screen title"
+  },
+
+  "loginSubtitle": "Sign in to your account",
+  "@loginSubtitle": {
+    "description": "Login screen subtitle"
+  },
+
+  "registerTitle": "Create Account",
+  "@registerTitle": {
+    "description": "Register screen title"
+  },
+
+  "registerSubtitle": "Create your account",
+  "@registerSubtitle": {
+    "description": "Register screen subtitle"
+  },
+
+  "email": "Email",
+  "@email": {
+    "description": "Email field label"
+  },
+
+  "password": "Password",
+  "@password": {
+    "description": "Password field label"
+  },
+
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": {
+    "description": "Confirm password field label"
+  },
+
+  "fullName": "Full Name",
+  "@fullName": {
+    "description": "Full name field label"
+  },
+
+  "signIn": "Sign In",
+  "@signIn": {
+    "description": "Sign in button text"
+  },
+
+  "signUp": "Sign Up",
+  "@signUp": {
+    "description": "Sign up button text"
+  },
+
+  "createAccount": "Create Account",
+  "@createAccount": {
+    "description": "Create account button text"
+  },
+
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout button text"
+  },
+
+  "dashboard": "Dashboard",
+  "@dashboard": {
+    "description": "Dashboard screen title"
+  },
+
+  "transactions": "Transactions",
+  "@transactions": {
+    "description": "Transactions screen title"
+  },
+
+  "analytics": "Analytics",
+  "@analytics": {
+    "description": "Analytics screen title"
+  },
+
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings screen title"
+  },
+
+  "totalBalance": "Total Balance",
+  "@totalBalance": {
+    "description": "Total balance label"
+  },
+
+  "income": "Income",
+  "@income": {
+    "description": "Income label"
+  },
+
+  "expenses": "Expenses",
+  "@expenses": {
+    "description": "Expenses label"
+  },
+
+  "quickActions": "Quick Actions",
+  "@quickActions": {
+    "description": "Quick actions section title"
+  },
+
+  "recentTransactions": "Recent Transactions",
+  "@recentTransactions": {
+    "description": "Recent transactions section title"
+  },
+
+  "viewAll": "View All",
+  "@viewAll": {
+    "description": "View all button text"
+  },
+
+  "addIncome": "Add Income",
+  "@addIncome": {
+    "description": "Add income button text"
+  },
+
+  "addExpense": "Add Expense",
+  "@addExpense": {
+    "description": "Add expense button text"
+  },
+
+  "transfer": "Transfer",
+  "@transfer": {
+    "description": "Transfer button text"
+  },
+
+  "viewReports": "View Reports",
+  "@viewReports": {
+    "description": "View reports button text"
+  },
+
+  "goodMorning": "Good Morning",
+  "@goodMorning": {
+    "description": "Good morning greeting"
+  },
+
+  "goodAfternoon": "Good Afternoon",
+  "@goodAfternoon": {
+    "description": "Good afternoon greeting"
+  },
+
+  "goodEvening": "Good Evening",
+  "@goodEvening": {
+    "description": "Good evening greeting"
+  },
+
+  "welcomeBack": "Welcome back!",
+  "@welcomeBack": {
+    "description": "Welcome back message"
+  },
+
+  "viewDetails": "View Details",
+  "@viewDetails": {
+    "description": "View details button text"
+  },
+
+  "account": "Account",
+  "@account": {
+    "description": "Account section title"
+  },
+
+  "preferences": "Preferences",
+  "@preferences": {
+    "description": "Preferences section title"
+  },
+
+  "support": "Support",
+  "@support": {
+    "description": "Support section title"
+  },
+
+  "profileInformation": "Profile Information",
+  "@profileInformation": {
+    "description": "Profile information menu item"
+  },
+
+  "securityPrivacy": "Security & Privacy",
+  "@securityPrivacy": {
+    "description": "Security and privacy menu item"
+  },
+
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications menu item"
+  },
+
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme menu item"
+  },
+
+  "language": "Language",
+  "@language": {
+    "description": "Language menu item"
+  },
+
+  "currency": "Currency",
+  "@currency": {
+    "description": "Currency menu item"
+  },
+
+  "helpFaq": "Help & FAQ",
+  "@helpFaq": {
+    "description": "Help and FAQ menu item"
+  },
+
+  "sendFeedback": "Send Feedback",
+  "@sendFeedback": {
+    "description": "Send feedback menu item"
+  },
+
+  "about": "About",
+  "@about": {
+    "description": "About menu item"
+  },
+
+  "systemDefault": "System default",
+  "@systemDefault": {
+    "description": "System default theme option"
+  },
+
+  "english": "English",
+  "@english": {
+    "description": "English language option"
+  },
+
+  "usdCurrency": "USD ($)",
+  "@usdCurrency": {
+    "description": "USD currency option"
+  },
+
+  "logoutConfirmTitle": "Logout",
+  "@logoutConfirmTitle": {
+    "description": "Logout confirmation dialog title"
+  },
+
+  "logoutConfirmMessage": "Are you sure you want to logout?",
+  "@logoutConfirmMessage": {
+    "description": "Logout confirmation dialog message"
+  },
+
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+
+  "yesterday": "Yesterday",
+  "@yesterday": {
+    "description": "Yesterday date label"
+  },
+
+  "hoursAgo": "{hours}h ago",
+  "@hoursAgo": {
+    "description": "Hours ago time format",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+
+  "minutesAgo": "{minutes}m ago",
+  "@minutesAgo": {
+    "description": "Minutes ago time format",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+
+  "daysAgo": "{days} days ago",
+  "@daysAgo": {
+    "description": "Days ago time format",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+
+  "errorEmailRequired": "Email is required",
+  "@errorEmailRequired": {
+    "description": "Email required validation error"
+  },
+
+  "errorInvalidEmail": "Please enter a valid email",
+  "@errorInvalidEmail": {
+    "description": "Invalid email validation error"
+  },
+
+  "errorPasswordRequired": "Password is required",
+  "@errorPasswordRequired": {
+    "description": "Password required validation error"
+  },
+
+  "errorPasswordTooShort": "Password must be at least 6 characters",
+  "@errorPasswordTooShort": {
+    "description": "Password too short validation error"
+  },
+
+  "errorPasswordsNotMatch": "Passwords do not match",
+  "@errorPasswordsNotMatch": {
+    "description": "Passwords don't match validation error"
+  },
+
+  "errorFullNameRequired": "Full name is required",
+  "@errorFullNameRequired": {
+    "description": "Full name required validation error"
+  },
+
+  "errorFullNameTooShort": "Name must be at least 2 characters",
+  "@errorFullNameTooShort": {
+    "description": "Full name too short validation error"
+  },
+
+  "noAccountSignUp": "Don't have an account? Sign up",
+  "@noAccountSignUp": {
+    "description": "No account sign up link text"
+  },
+
+  "haveAccountSignIn": "Already have an account? Sign in",
+  "@haveAccountSignIn": {
+    "description": "Have account sign in link text"
+  },
+
+  "transactionManagementComingSoon": "Transaction management coming soon!",
+  "@transactionManagementComingSoon": {
+    "description": "Transaction management placeholder text"
+  },
+
+  "financialChartsComingSoon": "Financial charts and insights coming soon!",
+  "@financialChartsComingSoon": {
+    "description": "Analytics placeholder text"
+  },
+
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button text"
+  },
+
+  "noInternetConnection": "No internet connection",
+  "@noInternetConnection": {
+    "description": "No internet connection message"
+  },
+
+  "offlineMode": "Offline Mode",
+  "@offlineMode": {
+    "description": "Offline mode indicator"
+  },
+
+  "connectToInternet": "Connect to internet to sync data",
+  "@connectToInternet": {
+    "description": "Connect to internet message"
+  },
+
+  "searchTransactions": "Search transactions...",
+  "@searchTransactions": {
+    "description": "Search transactions placeholder"
+  },
+
+  "allTransactions": "All Transactions",
+  "@allTransactions": {
+    "description": "All transactions title"
+  },
+
+  "noTransactionsFound": "No transactions found",
+  "@noTransactionsFound": {
+    "description": "No transactions found message"
+  },
+
+  "addFirstTransaction": "Add your first transaction to get started",
+  "@addFirstTransaction": {
+    "description": "Add first transaction message"
+  },
+
+  "filterTransactions": "Filter Transactions",
+  "@filterTransactions": {
+    "description": "Filter transactions dialog title"
+  },
+
+  "timePeriod": "Time Period",
+  "@timePeriod": {
+    "description": "Time period filter label"
+  },
+
+  "allTime": "All Time",
+  "@allTime": {
+    "description": "All time filter option"
+  },
+
+  "thisMonth": "This Month",
+  "@thisMonth": {
+    "description": "This month filter option"
+  },
+
+  "lastMonth": "Last Month",
+  "@lastMonth": {
+    "description": "Last month filter option"
+  },
+
+  "nextMonth": "Next Month",
+  "@nextMonth": {
+    "description": "Next month filter option"
+  },
+
+  "customRange": "Custom Range",
+  "@customRange": {
+    "description": "Custom range filter option"
+  },
+
+  "customDateRange": "Custom Date Range",
+  "@customDateRange": {
+    "description": "Custom date range label"
+  },
+
+  "startDate": "Start Date",
+  "@startDate": {
+    "description": "Start date label"
+  },
+
+  "endDate": "End Date",
+  "@endDate": {
+    "description": "End date label"
+  },
+
+  "category": "Category",
+  "@category": {
+    "description": "Category filter label"
+  },
+
+  "allCategories": "All Categories",
+  "@allCategories": {
+    "description": "All categories option"
+  },
+
+  "clearAll": "Clear All",
+  "@clearAll": {
+    "description": "Clear all filters button"
+  },
+
+  "apply": "Apply",
+  "@apply": {
+    "description": "Apply button"
+  },
+
+  "to": "to",
+  "@to": {
+    "description": "Date range separator"
+  },
+
+  "today": "Today",
+  "@today": {
+    "description": "Today date label"
+  },
+
+  "errorLoadingTransactions": "Error loading transactions",
+  "@errorLoadingTransactions": {
+    "description": "Error loading transactions message"
+  },
+
+  "search": "Search",
+  "@search": {
+    "description": "Search button"
+  },
+
+  "filter": "Filter",
+  "@filter": {
+    "description": "Filter button"
+  }
+}
