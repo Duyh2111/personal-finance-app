@@ -32,3 +32,7 @@ app.include_router(analytics.router, prefix="/api/v1/analytics", tags=["analytic
 @app.get("/")
 async def root():
     return {"message": "Personal Finance API"}
+
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy", "message": "Personal Finance API is running"}
